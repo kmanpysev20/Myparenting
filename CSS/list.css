@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.wrap {
+    width: 100%;
+    margin: 20px auto;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    word-break: break-all;
+}
+
+.list-table {
+    border-bottom: 2px solid gray;
+}
+
+td {
+    font-size: 14px;
+    padding: 4px;
+    text-align: center;
+}
+
+th {
+    font-size: 12px;
+    padding: 4px;
+    text-align: center;
+    background-color: rgb(224, 221, 221);
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.th1 {
+    border-right: 1px solid gray;
+    width: 300px;
+}
+
+.th2 {
+    border-right: 1px solid gray;
+    width: 500px;
+}
+
+.th3 {
+    border-right: 1px solid gray;
+    width: 1700px;
+}
+
+.th4 {
+    border-right: 1px solid gray;
+    width: 800px;
+}
+
+.th5 {
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 6px;
+    background-color: purple;
+}
+
+.total-p {
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.td1 {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.td1-border-bottom {
+    border-bottom: 1px solid gray;
+}
+
+.td1-border-right {
+    border-right: 1px solid gray;
+}
+
+.p-sub {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.page-nav {
+    margin-top: 40px;
+}
+
+.page-nav a {
+    display: block;
+    flex-direction: column;
+    margin: 0 7px;
+    float: left;
+    width: 7px;
+    height: 28px;
+    text-decoration: center;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pprev::after {
+    content: '\227C';
+    border: none;
+    color: black;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 3px;
+
+}
+
+.prev::after {
+    content: '\227A';
+    border: none;
+    color: black;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 3px;
+
+}
+
+.next::before {
+    content: '\227B';
+    border: none;
+    color: black;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 3px;
+
+}
+
+.nnext::before {
+    content: '\227D';
+    border: none;
+    color: black;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+    background-color: blue;
+    font-size: 36px bold;
+    width: 14%;
+    color: white;
+    padding: 1%;
+    border-radius: 20px;
+    border: none;
+    text-decoration: underline;
+}
+
+.button:hover {
+    background-color: rgb(127, 127, 203);
+    font-size: 36px bold;
+    width: 14%;
+    color: white;
+    padding: 1%;
+    border-radius: 20px;
+    border: none;
+    text-decoration: underline;
+}
+
+ol {
+    display:flex;
+    justify-content: center;
+}
